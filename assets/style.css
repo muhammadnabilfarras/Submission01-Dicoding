@@ -141,12 +141,17 @@ figcaption {
     text-align: center;
 }
 
+.image {
+    max-width: 600px;
+}
+
 @media screen and (max-width: 992px) {
 
     .card-content img,
     aside {
         width: 100%;
         padding: 0;
+        margin-bottom: 50px;
     }
 
     .top-header {
